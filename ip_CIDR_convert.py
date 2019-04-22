@@ -16,7 +16,7 @@ class Network():
         #ipv4 = ipaddr.IPv4Address(ip)
         ipv4 = ipaddr.IPv4Network(ip)
         print(ipv4,"'s CIDR to IPRange\n")
-        print("Is private IP: ",ipv4.is_private) 
+        print("Is private IP?: ",ipv4.is_private) 
         print("Total Host: ",ipv4.numhosts)
         print("(broadcast)Last IP: ",ipv4.broadcast)   ##廣播位址 Last IP
         print("Widlcard Bits: ",ipv4.hostmask)    ##Widlcard Bits
